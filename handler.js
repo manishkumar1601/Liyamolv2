@@ -431,16 +431,16 @@ Untuk mematikan fitur ini, ketik
 
 global.dfail = (type, m, conn) => {
   let msg = {
-    rowner: 'Perintah ini hanya dapat digunakan oleh _*Pemilik Bot*_',
-    owner: 'Perintah ini hanya dapat digunakan oleh _*Pemilik Bot*_',
+    rowner: 'ee commad bot ownerkke use cheyyan pattu _*LiyaMol*_',
+    owner: 'Perintah ini hanya dapat digunakan oleh _*LiyaMol*_',
     mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_',
     premium: 'Perintah ini hanya untuk pengguna _*Premium*_',
     group: 'Perintah ini hanya dapat digunakan di grup',
-    private: 'Perintah ini hanya dapat digunakan di Chat Pribadi',
-    admin: 'Perintah ini hanya untuk *Admin* grup',
-    botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini',
-    unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Arif.19*',
-    nsfw: 'Mode NSFW tidak aktif. Hanya pemilik bot yang bisa mengaktifkannya'
+    private: 'Private,
+    admin: 'ee commads *Admin* grup',
+    botAdmin: 'bo *Admin* undavuka',
+    unreg: 'ee fucher upayogikkan dheyavayi:\n\n*#daftar name.umur*\n\n ഉദാഹരണം : *#daftar saidali.20*',
+    nsfw: 'mod sageevamalla'
   }[type]
   if (msg) return m.reply(msg)
 }

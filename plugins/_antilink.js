@@ -9,7 +9,7 @@ handler.before = async function (m, { isAdmin, isBotAdmin }) {
   if (chat.antiLink && isGroupLink && !isAdmin && !m.isBaileys && m.isGroup) {
     let thisGroup = `https://chat.whatsapp.com/${await conn.groupInviteCode(m.chat)}`
     if (m.text.includes(thisGroup)) throw false
-    m.reply(`*Link Grup Terdeteksi!*${isBotAdmin ? '' : '\n\nbukan admin jadi gabisa kick t_t'}\n\n*.off antilink* - untuk mematikan fitur ini`)
+    m.reply(`*ഗ്രൂപ്പ് ലിങ്ക് കണ്ടെത്തി!*${isBotAdmin ? '' : '\n\n nan admin alla athu kond kick cheyyan pattillat_t'}\n\n*.off antilink* - untuk mematikan fitur ini`)
     if (global.opts['restrict']) {
       if (isBotAdmin) this.groupRemove(m.chat, [m.sender])
     }

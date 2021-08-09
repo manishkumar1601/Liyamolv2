@@ -32,7 +32,7 @@ const defaultMenu = {
   before: `
 ╭─「 %me 」
 │ Hai, %name!
-│
+│ ʟɪͥʏͭᴀᷤᴍᷟᴏͤʟ v2
 │ left *%limit Limit*
 │ Role *%role*
 │ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]

@@ -12,8 +12,8 @@ apt install git -y
 apt install nodejs -y
 apt install ffmpeg -y
 apt install imagemagick -y
-git clone https://github.com/saidalisaid2/LiyaMolv2
-cd wabot-aq
+git clone https://github.com/saidalisaid161/LiyaMolv2
+cd LiyaMolv2
 npm install
 npm update
 ```
